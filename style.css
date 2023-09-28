@@ -33,7 +33,9 @@ a{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255 ,0.3);
-   
+}
+.header-logo a img{
+    width: 100%;
 }
 .menu-icon{
     display: none;
@@ -78,7 +80,7 @@ a{
     color: #FFF;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 60px;
+    padding: 0 80px;
 }
 .banner .container p{
     font-size: 22px;
@@ -380,5 +382,110 @@ a{
     .banner .container h1 {
         font-size: 45px;
         line-height: 50px;
+        padding: 0 50px;
+   }
+   .banner .container p {
+    padding: 0 60px;
+
+}
+}
+@media screen and (max-width: 768px){
+    .header {
+        height: 84px;
+    }
+    .banner {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+    .banner .container p {
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+    .banner .container a{
+        padding: 14px 28px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .banner .container h1 {
+        font-size: 34px;
+        line-height: 40px;
+        padding: 0 40px;
+   }
+   .banner .container p {
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 60px;
+    padding: 0 20px;
+}
+.banner .container a{
+    padding: 12px 22px;
+}
+}
+
+@media screen and (max-width: 560px){
+    .header {
+        height: 70px;
+    }
+    .header-logo a img{
+        width: 80%;
+    }
+    .menu-icon i{
+        font-size: 22px;
+    }
+    .banner .container h1 {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 0 16px;
+   }
+   .banner .container p {
+    margin-top: 32px;
+    margin-bottom: 60px;
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 430px){
+    .banner {
+        padding-top: 160px;
+        padding-bottom: 80px;
+    }
+    .banner .container h1 {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0 9px;
+   }
+   .banner .container p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+.banner .container a{
+    padding: 10px 16px;
+}
+}
+@media screen and (max-width: 350px){
+    .header {
+        height: 60px;
+    }
+    .banner {
+        padding-top: 120px;
+        padding-bottom: 70px;
+    }
+    .banner .container h1 {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0 2px;
+   }
+   .banner .container p {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+}
+.header-logo a img{
+    width: 70%;
+}
+.menu-icon i{
+    font-size: 18px;
 }
 }
